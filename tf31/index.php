@@ -28,8 +28,7 @@
       <div class="news__section-inner">
         <h2 class="heading__english">NEWS</h2>
         <div class="news-table" id="news-item-1">
-          
-          <div class="news-item" data-page="1">
+          <div class="news-item"data-page="1">
             <p class="news-item__date">2022年12月15日</p>
             <p class="news-item__text">年末年始について</p>
           </div>
@@ -72,10 +71,12 @@
               <rect x="0.5" y="0.5" width="35" height="35" fill="white" stroke="#828282"/>
               <path d="M12 13L19 18L12 23" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/>
               <path d="M18 13L25 18L18 23" stroke="#828282" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+            </svg>            
           </button>
         </div>
-        <a href="#" class="view-all">全てみる</a>
+        <div class="btn--padding">
+      <a href="" class="view-all">全てみる</a>
+    </div>     
     </section>
     <!-- NEWS -->
 

@@ -53,6 +53,10 @@
     <div class="footer__copyright">
       <small>Copyright © 2023 デイトラ All rights reserved.</small>
     </div>
+    <script>
+  console.log("footer.js動いてます");
+</script>
+
   </footer>
   <?php wp_footer(); ?>
   </body>

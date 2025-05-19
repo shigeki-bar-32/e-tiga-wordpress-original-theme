@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
 
 
+
 //drawer
 $(".drawer-icon").click(() => {
   $(".drawer-icon, .drawer__lists").toggleClass("is-active");
@@ -117,6 +118,7 @@ $(document).ready(function() {
   });
 });
 
+
 //  company-sp
 $(document).ready(function () {
   // 初期設定: すべてのコンテンツを非表示にして、概要のみ表示
@@ -188,6 +190,8 @@ document.addEventListener("DOMContentLoaded", function () {
  });
 });
 
+
+
 // plactice jQuery
 $(document).ready(function () {
   // 初期設定: すべてのコンテンツを非表示にして、概要のみ表示
@@ -200,6 +204,7 @@ $(document).ready(function () {
 $('.apply-btn').click(function() {
   alert('お申し込みは完了してません。');
 });
+
 
 $('.cvc-btn-common').click(function() {
   alert('お申し込みは完了してません。');
@@ -215,7 +220,5 @@ $(".js-accordion").on("click", function (e) {
   $qaBox.toggleClass("is-open"); // 開閉時のクラスを付与
   $qaBody.slideToggle(); // アコーディオンの開閉アニメーション
 });
-
-
   // 他のすべての `$()` をこの中に！
 });

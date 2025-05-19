@@ -22,7 +22,6 @@ $breakpoints: (
   }
 }
 
-
 /* 基本リセット */
 body,
 h1,
@@ -235,10 +234,10 @@ body {
 
 // "すべて見る" ボタンのスタイル
 .view-all {
-  display: inline-flex; // `a` に `flex` を適用
+  display: inline-flex;
   align-items: center; // 垂直方向の中央揃え
   justify-content: center; // 水平方向の中央揃え
-  margin-top: 25px;
+  margin-top: 25px  auto 0;
   padding-top: 5px;
   padding-right: 27px;
   padding-bottom: 4px;
@@ -668,6 +667,7 @@ body {
 
 // セクション内の中央配置
 .news__section-inner {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1495,7 +1495,7 @@ body {
 .company__tab-menu .is-active::before {
   content: "";
   display: block;
-  background: url(../img/down-arrow-white.svg) no-repeat center center/contain;
+  background: url(../img/svg/down-arrow-white.svg) no-repeat center center/contain;
   position: absolute;
   width: 12px;
   height: 12px;
@@ -1587,7 +1587,6 @@ body {
     width: 33.5%;
   }
 }
-
 @media screen and (min-width: 768px) {
   .company__contents-items .item04 {
     grid-area: item04;
@@ -1791,6 +1790,12 @@ body {
 
 @media screen and (min-width: 768px) {
   .certifications__contents-wrapper {
+    margin: 58px 30px 168px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .certifications__contents-wrapper {
     margin: 80px 150px 156px;
   }
 }
@@ -1808,8 +1813,6 @@ body {
   font-weight: 400;
   line-height: 170%; /* 27.2px */
 }
-
-
 
 //cv-sp__pc
 .cvc {
@@ -2467,6 +2470,4 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
-
-
 //footer
